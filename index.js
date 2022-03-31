@@ -1,3 +1,7 @@
+import Header from "./Header"
+import Footer from "./Footer"
+
+
 function Page(){
     return (
         
@@ -19,25 +23,6 @@ function Page(){
             </ol>
             <Footer />
         </div>
-    )
-}
-
-function Header(){
-    return (
-        <nav>
-            <img src="./react-logo.png" width= "40px" />
-            <h1>
-                Reasons Im excited for React!
-            </h1>
-        </nav>
-    )
-}
-
-function Footer(){
-    return (
-        <small>
-        C 2022 Sanchez developement. All reights reserved.
-        </small>
     )
 }
 
